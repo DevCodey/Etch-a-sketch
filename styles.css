@@ -3,3 +3,23 @@
   margin-right: auto;
   max-width: fit-content;
 }
+
+.container{
+  display: flex;
+  height: 500px;
+  width: 500px;
+  flex-wrap: wrap;
+}
+
+.grid-square{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+
+#sketchpad{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}

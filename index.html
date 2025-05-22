@@ -7,8 +7,16 @@
   <title>Etch-a-Sketch</title>
 </head>
 <body>
-  <h1>Etch-a-Sketch</h1>
-  <div id="sketchpad"></div>
+  <h1 class="title">Etch-a-Sketch</h1>
+  <div class="container">
+    <div id="sketchpad"></div>
+    <button type="submit" class="submit">Create Grid</button>
+    <label for="gridSize">Choose Grid Size</label>
+    <select name="gridSize" id="gridSize">
+      <option value="16">16 x 16</option>
+    </select>
+  </div>
+  
 </body>
 <script src="main.js"></script>
 </html>

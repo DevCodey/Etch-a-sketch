@@ -8,15 +8,22 @@
 </head>
 <body>
   <h1 class="title">Etch-a-Sketch</h1>
+      <p class="subtitle">Create a grid and draw on it!</p>
   <div class="container">
-    <button type="submit" class="submit">Create Grid</button>
-    <label for="size">Choose Grid Size</label>
-    <select name="size" id="size">
+    <div class="input-group">
+      <label for="size">Choose Grid Size</label>
+      <select name="size" id="size">
       <option value="8">8 x 8</option>
       <option value="16">16 x 16</option>
       <option value="32">32 x 32</option>
       <option value="64">64 x 64</option>
-    </select>        
+      </select>
+    </div>
+    <div class="input-group">
+      <label for="color">Choose Color</label>
+    <input type="color" id="color" name="color" value="#000000">       
+  </div>
+<button type="submit" id="submit">Create Grid</button>  
   </div>
   <div id="sketchpad"></div>
 </body>
